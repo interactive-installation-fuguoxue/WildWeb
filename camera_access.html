@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Access Example</title>
+</head>
+<body>
+    <h1>Camera Access Example</h1>
+    <video id="camera" width="640" height="480" autoplay></video>
+
+    <script>
+        // Get access to the user's camera
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(function (stream) {
+                // Display the camera feed in a video element
+                var videoElement = document.getElementById('camera');
+                videoElement.srcObject = stream;
+            })
+            .catch(function (error) {
+                console.error('Error accessing camera:', error);
+            });
+    </script>
+</body>
+</html>
