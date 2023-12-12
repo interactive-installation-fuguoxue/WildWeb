@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1833.0, 946.0, 66.0, 22.0 ],
+					"text" : "OSC-route"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 36.0,
 					"id" : "obj-20",
 					"linecount" : 2,
@@ -47,7 +59,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1357.619599103927612, 364.634155035018921, 468.878051280975342, 89.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Live Visuals \n(to be controlled by Arduino)"
 				}
 
@@ -547,8 +558,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 456.5, 584.5, 87.0, 22.0 ],
-					"text" : "DIgitalEden.txt"
+					"patching_rect" : [ 456.5, 584.5, 86.0, 22.0 ],
+					"text" : "DigitalEden.txt"
 				}
 
 			}
@@ -759,7 +770,7 @@
 					"fontname" : "OCR A Bold",
 					"fontsize" : 14.0,
 					"id" : "obj-81",
-					"linecount" : 9,
+					"linecount" : 2,
 					"maxclass" : "textedit",
 					"nosymquotes" : 1,
 					"numinlets" : 1,
@@ -768,9 +779,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1357.619599103927612, 897.268707275390625, 320.0, 96.258502960205078 ],
 					"presentation" : 1,
-					"presentation_linecount" : 5,
-					"presentation_rect" : [ 282.274471640586853, 717.169842481613159, 550.680851101875305, 141.050843596458435 ],
-					"text" : "It became a source of inspiration guiding humanity toward more harmonious coexistence with the Earth itself. The challenge was to synchronize this energy with the digital Garden of Eden transformed. The once-static digital environment began to exhibit signs of sentience.",
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 575.607795357704163, 743.836508274078369, 550.680851101875305, 141.050843596458435 ],
+					"text" : "There they witnessed the profound interconnectedness of all life.",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -913,7 +924,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 59.0, 789.5, 272.0, 78.0 ],
 					"rendermode" : 2,
-					"url" : "file:///C:/Users/fuguo/OneDrive/Documents/GitHub/WildWeb/p5js/index.html?nfactor=4"
+					"url" : "file:///C:/Users/fuguo/OneDrive/Documents/GitHub/WildWeb/p5js/index.html?nfactor=3"
 				}
 
 			}
@@ -979,9 +990,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1357.619599103927612, 633.5, 320.0, 240.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 282.274471640586853, 234.203388333320618, 550.508463859558105, 412.881347894668579 ],
+					"presentation_rect" : [ 575.607795357704163, 260.870054125785828, 550.508463859558105, 412.881347894668579 ],
 					"rendermode" : 0,
-					"url" : "https://hydra.ojack.xyz/?code=JTJGJTJGJTIwZ3JhZGllbnQlMjBzZXF1ZW5jZSUyMGF0JTIwc3BlZWRzJTIwb2YlMjAxJTJDJTIwMiUyMCUyNiUyMDQlMEElMEFzMC5pbml0Q2FtKCklMEFzcmMoczApLnBpeGVsYXRlKDIwJTJDMjApLmthbGVpZCgxMCkuY29sb3IoMSUyQyUyMDElMkMlMjAwLjgpLnJlcGVhdCgpLm91dCgpJTBBcmVuZGVyKG8wKQ%3D%3D&showCode=false"
+					"url" : "https://hydra.ojack.xyz/?showCode=false&code=JTBBJTIwJTBBczAuaW5pdENhbSgpJTBBJTBBc3JjKHMwKS5ibGVuZChvMCUyQyUyMDAuOTYpJTBBLmNvbnRyYXN0KDEuMDIpJTBBLnNhdHVyYXRlKDEuMDIpJTBBJTJGJTJGJTIwLnNjYWxlKDEuMDEpJTBBLm1vZHVsYXRlKG8wJTJDJTIwMC4wMDYpJTBBLm91dChvMCklMEElMEFyZW5kZXIobzAp"
 				}
 
 			}
@@ -1188,7 +1199,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1342.39511036872841, 619.001565780639794, 355.448977470397949, 454.020405769348145 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 260.706860661506653, 207.968071267808341, 594.588887453079451, 669.76196591118503 ],
+					"presentation_rect" : [ 554.040184378623962, 234.634737060273551, 594.588887453079451, 669.76196591118503 ],
 					"proportion" : 0.5
 				}
 
@@ -1758,6 +1769,10 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "OSC-route.mxe64",
+				"type" : "mx64"
+			}
+, 			{
 				"name" : "text2dict.maxpat",
 				"bootpath" : "~/OneDrive/Documents/GitHub/WildWeb",
 				"patcherrelativepath" : ".",
